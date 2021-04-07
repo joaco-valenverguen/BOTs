@@ -5,7 +5,7 @@ module.exports = class ServerCommand extends Command {
     constructor() {
      super({
       name: 'server',
-      aliases: [''],
+      aliases: ['serverInfo'],
       category: 'admin',
       priority: 5,
       permLvl: 3
